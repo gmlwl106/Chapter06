@@ -16,7 +16,8 @@ public class Server {
 	public static void main(String[] args) throws IOException {
 		
 		ServerSocket serverSocket = new ServerSocket();
-		serverSocket.bind(new InetSocketAddress("192.168.0.10", 10001)); //(ip, port)
+		//serverSocket.bind(new InetSocketAddress("192.168.0.10", 10001)); //(ip, port) //집
+		serverSocket.bind(new InetSocketAddress("192.168.0.219", 10001)); //학원
 		
 		System.out.println("<서버시작>");
 		System.out.println("=============================================");

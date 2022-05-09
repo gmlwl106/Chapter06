@@ -21,8 +21,8 @@ public class Client {
 		System.out.println("=============================================");
 		
 		System.out.println("[서버에 연결을 요청합니다.]");
-		socket.connect(new InetSocketAddress("192.168.0.10", 10001));
-		
+		//socket.connect(new InetSocketAddress("192.168.0.10", 10001)); //집
+		socket.connect(new InetSocketAddress("192.168.0.219", 10001));	//학원
 		System.out.println("[서버에 연결되었습니다.]");
 		
 		
